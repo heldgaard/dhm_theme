@@ -1,0 +1,11 @@
+name: DHM Theme
+type: theme
+description: 'Base theme based on the official Bootstrap contrib theme'
+package: Other
+core: 8.x
+libraries:
+  - dhm_theme/global-styling
+ 
+base theme: classy
+#Using Classy as a base theme https://www.drupal.org/theme-guide/8/classy
+
