@@ -1,0 +1,14 @@
+{
+    "name": "heldgaard/dhm_theme",
+    "description": "Base theme based on the official Bootstrap contrib theme",
+    "type": "drupal-custom-theme",
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "Dennis Heldgaard Madsen",
+            "email": "dennis@heldgaard.com"
+        }
+    ],
+    "minimum-stability": "dev",
+    "require": {}
+}
