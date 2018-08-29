@@ -1,11 +1,26 @@
 name: DHM Theme
 type: theme
 description: 'Base theme based on the official Bootstrap contrib theme'
-package: Other
+package: 'Bootstrap'
 core: 8.x
 libraries:
   - dhm_theme/global-styling
  
-base theme: classy
-#Using Classy as a base theme https://www.drupal.org/theme-guide/8/classy
+base theme: bootstrap
 
+regions:
+  navigation: 'Navigation'
+  navigation_collapsible: 'Navigation (Collapsible)'
+  header: 'Top Bar'
+  highlighted: 'Highlighted'
+  help: 'Help'
+  content: 'Content'
+  sidebar_first: 'Primary'
+  sidebar_second: 'Secondary'
+  footer: 'Footer'
+  page_top: 'Page top'
+  page_bottom: 'Page bottom'
+
+libraries-extend:
+  bootstrap/framework:
+    - dhm_theme/framework
